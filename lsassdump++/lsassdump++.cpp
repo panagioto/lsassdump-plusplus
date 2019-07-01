@@ -258,7 +258,7 @@ int main()
 	}
 
 	//check if SetProcessMitigationPolicy successfully worked by using GetSignatureMitigation project --> https://github.com/SekoiaLab/BinaryInjectionMitigation/tree/master/GetSignatureMitigation
-	system("pause");
+	//system("pause");
 
 	//dump lsass
 	std::cout << "[>] Trying to dump lsass..." << std::endl;
